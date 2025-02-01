@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d5c2c2; /*background colour*/
+    color: #333; /*colour*/
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+
+/* Logo Styling */
+.logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    opacity: 0.7; 
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #5c89d2, #9be5ef); /*colours*/
+    color: rgb(237, 229, 229);
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Main Heading (Song Title) */
+h1 {
+    font-family: 'Lobster', fantasy;
+    font-style: unset;
+    color: #131111;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Subheading (Artist Name) */
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: #444; 
+}
+
+/* Lyrics Section */
+.lyrics {
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 800px; 
+    line-height: 1.8;
+    text-align: left; 
+}
+
+/* Image Container Styling */
+.image-container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+/* Footer Styling */
+footer {
+    background-color: #e8e2e2;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(248, 244, 244);
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center; 
+}
+
+/* Additional Styling (Improvement on readability and structure) */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #131111; 
+}
+
+/* Footer */
+footer {
+    padding-bottom: 20px;
+}
