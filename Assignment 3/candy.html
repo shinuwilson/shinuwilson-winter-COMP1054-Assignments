@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    
+    <!-- Viewport - for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Description of the page -->
+    <meta name="description" content="A webpage about the delicious Lindt chocolates, featuring interesting facts, eye-catching imagery, and nutritional information.">
+    
+    <!-- Keywords -->
+    <meta name="keywords" content="Lindt, chocolates, Lindor, truffles, Swiss chocolate, Lindt Excellence">
+    
+    <!-- Title of the webpage that appears in the browser tab -->
+    <title>Lindt Chocolates - Sweet Delights</title>
+    
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preconnect to Google's font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Link to Google Fonts to import the required fonts for the webpage -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Container -->
+        <div class="container">
+            <!-- Main heading for the webpage -->
+            <h1>Welcome to the World of Lindt Chocolates</h1>
+            
+            <!-- short description of the chocolates -->
+            <p>Experience the sweet luxury of Swiss chocolate craftsmanship</p>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- About Lindt Section -->
+        <section class="about">
+            <!-- Heading for the about section -->
+            <h2>About Lindt Chocolates</h2>
+            
+            <!-- describing Lindt chocolates -->
+            <p>Lindt chocolates are famous for their smooth, rich, and creamy texture, crafted by expert chocolatiers since 1845. With iconic flavors like Lindor truffles, Excellence bars, and seasonal chocolate delights, Lindt continues to be a favorite for chocolate lovers around the world.</p>
+        </section>
+
+        <!-- Imagery Section -->
+        <section class="images">
+            <!-- Heading for the image gallery -->
+            <h2>Eye-Catching Lindt Chocolate Imagery</h2>
+            
+            <!-- Lindt chocolate images -->
+            <div class="image-gallery">
+                <!-- Lindor Truffles -->
+                <img src="images/lindor_truffles.webp" alt="Lindor Truffles with a smooth, creamy chocolate center">
+                
+                <!-- Lindt Excellence Dark Chocolate -->
+                <img src="images/lindt_excellence_dark_chocolate.webp" alt="Lindt Excellence Dark Chocolate bar">
+                
+                <!-- Lindt Easter Bunny -->
+                <img src="images/lindt_easter_bunny.jpg" alt="Lindt Easter Bunny chocolate figure">
+            </div>
+        </section>
+
+        <!-- Nutritional Information Section -->
+        <section class="nutrition">
+            <!-- Heading for the nutritional information table -->
+            <h2>Nutritional Information</h2>
+            
+            <!-- Table displaying nutritional details for Lindt chocolates -->
+            <table>
+                <!-- Table headers -->
+                <tr>
+                    <th>Serving Size</th>
+                    <th>Calories</th>
+                    <th>Sugar</th>
+                    <th>Fat</th>
+                </tr>
+                
+                <!-- Nutritional information - Lindor Truffle -->
+                <tr>
+                    <td>1 Lindor Truffle</td>
+                    <td>75</td>
+                    <td>5g</td>
+                    <td>6g</td>
+                </tr>
+                
+                <!-- Nutritional information - Lindt Excellence Square -->
+                <tr>
+                    <td>1 Square Lindt Excellence</td>
+                    <td>60</td>
+                    <td>3g</td>
+                    <td>5g</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer container -->
+        <div class="footer-container">
+            <!-- Lindt logo -->
+            <img src="images/Lindt_Logo.png" alt="Lindt Logo" class="logo">
+            
+            <!-- Company information section -->
+            <div class="company-info">
+                <!-- Copyright notice -->
+                <p>&copy; 2025 Lindt & Sprüngli. All rights reserved.</p>
+                
+                <!-- Contact information with a mail to link -->
+                <p>Contact: <a href="mailto:info@lindt.com">info@lindt.com</a></p>
+            </div>
+            
+            <!-- Contact form (just the front-end, no functionality) -->
+            <form class="contact-form">
+                <!-- Name input field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <!-- Email input field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Message input field -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <!-- Submit button for the contact form -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
