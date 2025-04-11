@@ -1,0 +1,120 @@
+/* Styleing for Contact Page */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7f8;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/premium_photo.png'); /* background image */
+  background-size: cover; /* background cover the entire page */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Ensures the background does not repeat */
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 119, 204, 0.8); 
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Contact Form Layout */
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  flex: 1;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Contact Form Title */
+.contact-form h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #0077cc;
+}
+
+/* Contact Form Text */
+.contact-form p {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Contact Form Labels */
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Contact Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Contact Form Text area */
+.contact-form textarea {
+  resize: vertical;
+}
+
+/* Contact Form Submit Button */
+.contact-form button {
+  padding: 1rem 2rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+}
